@@ -22,7 +22,7 @@ int main()
     //How to turn off a bit in a number?
 
 
-    cout << turn_on_bits(n,k)<<endl; 
+    cout << turn_off_bits(n,k)<<endl; 
 
 
     return 0;
