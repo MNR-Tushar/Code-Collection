@@ -13,6 +13,7 @@ a1,a2,a3,a4.....an;
 suppose  ai
 ai*a1+ai+a2+ai*a3+.....ai+an
 ai*(a1+a2+a3+...an)
+ai*(1+2+3+.....+n)
 ai*(n*(n+1))/2;
 
 */
