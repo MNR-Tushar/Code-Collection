@@ -4,7 +4,7 @@ Given an array of n integers, find the sum of ai × aj for all 1 ≤ i,j ≤n.
 
 n   n
 ∑   ∑  (ai * aj)
-j=1 i=1
+i=1 j=1
 
 optimal solution;
 here,
