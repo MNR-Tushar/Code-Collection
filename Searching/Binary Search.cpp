@@ -48,4 +48,24 @@ int main()
     if(ok==0)cout <<"Not Found"<<endl;
     
     return 0;
+
+    /*
+      Complexity Analysis
+      ...................
+      1 comparison = 1
+      2 comparison = 2
+      3 conparison = 4
+      x comparison = 2^k
+
+      n/2,n/4,n/8,.....n/2^k.
+
+      Here,
+      n/2^k=1
+      n=2^k
+      log n=log2^k
+      logn=klong2   hera, 2 is base.
+      k=log2(n)   here , 2 is base.
+
+      So, Time Complexity O(log(n)).
+    */
 }
