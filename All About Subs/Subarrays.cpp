@@ -12,7 +12,8 @@ using namespace std;
 int main()
 {
     optimize();
-    //Time Complexity O(n^3)
+    //Time Complexity O(n^3);
+    //Total Subbarrays = (n*(n+1))/2;
     int n;
     cin>>n;
     int ar[n+1];
