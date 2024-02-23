@@ -15,7 +15,7 @@ int main()
     //Modular arithmetic
     // Addition , Sub, Multipication
     //(a+b)%m=((a%m)+(b%m))%m;
-    //(a-b)%m=((a%m)-((b%m)+m)%m)%m;
+    //(a-b)%m=(((a%m)-(b%m))+m)%m;
     //(a*b)%m=((a%m)*(b%m))%m;
     ll mod=1000;
 
