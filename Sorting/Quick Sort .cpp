@@ -99,12 +99,12 @@ int main()
   If The array is Sorted.First element is pivot and i, end element j;
   first partition then n-1 number element partition ,then n-2..... n;
 
-  1st partition  n
-  2nd partition  n-1                  
-  3rd partition  n-2               
+  1st partition  n times
+  2nd partition  n-1 times                 
+  3rd partition  n-2 times              
   .                 .
   .                 .               
-  nth partition     1
+  nth partition     1 times
 
   we can write,
   1+2+3+4+.....+n;
