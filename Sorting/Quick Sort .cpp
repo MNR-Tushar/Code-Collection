@@ -104,7 +104,7 @@ int main()
   3rd partition  n-2               
   .                 .
   .                 .               
-  nth partition   1
+  nth partition     1
 
   we can write,
   1+2+3+4+.....+n;
