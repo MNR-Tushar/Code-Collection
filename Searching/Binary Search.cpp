@@ -63,8 +63,8 @@ int main()
       n/2^k=1
       n=2^k
       log n=log2^k
-      logn=klong2   hera, 2 is base.
-      k=log2(n)   here , 2 is base.
+      log(n)=k log(2 )  hera, 2 is base.
+      k=log(n)   here , 2 is base.
 
       So, Time Complexity O(log(n)).
     */
