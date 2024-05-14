@@ -47,10 +47,7 @@ void solve()
     
    
     cout << "Minmum number of coin: "<<dp[n][w]<<endl;
-    
-
-    
-
+        
 }
 int main()
 {
