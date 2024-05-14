@@ -11,11 +11,9 @@ int main()
 {
     
 
-     dp[0][0]=1;
+    dp[0][0]=1;
     int n,w;
-    //printf("how many coin you have: ");
     scanf("%d", &n);
-    //printf("Enter change: ");
     scanf("%d", &w);
  
     for(int i=1;i<=n;i++)
@@ -25,7 +23,8 @@ int main()
     for(int i=0;i<=n;i++)
     {
         for(int j=0;j<=w;j++)
-        {                                            
+        {  
+           if(i==0)continue;                                          
            if(coin[i]>j)
            {
               dp[i][j]=dp[i-1][j];
